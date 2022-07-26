@@ -1,0 +1,13 @@
+query CalculatorPaymentQuery{
+    calculatorPayment(input: {creditCode: 1}){
+        debitFormsList{
+            debitFormId
+            debitMoney
+            lockTotalAmount
+            orderCode
+            orderId
+            paymentMoney
+            salesDate
+        }
+    }
+}
