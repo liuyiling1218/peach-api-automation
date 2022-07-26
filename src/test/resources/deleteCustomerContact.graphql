@@ -1,0 +1,3 @@
+mutation deleteCustomerContact($input: DeleteCustomerContactInput){
+    deleteCustomerContact(input: $input)
+}

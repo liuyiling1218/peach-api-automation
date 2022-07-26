@@ -1,0 +1,3 @@
+mutation confirmCommodityGuidePrice($input: ConfirmCommodityGuidePriceInput!){
+    confirmCommodityGuidePrice(input: $input)
+}

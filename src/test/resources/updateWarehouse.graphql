@@ -1,0 +1,3 @@
+mutation updateWarehouse($input: WarehouseUpdateInput!){
+    updateWarehouse(input: $input)
+}

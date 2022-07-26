@@ -1,0 +1,10 @@
+mutation createAllocate($input: AllocateInput){
+    createAllocate(input: $input){
+        stockInCode
+        stockInId
+        stockInType
+        stockOutCode
+        stockOutId
+        stockOutType
+    }
+}

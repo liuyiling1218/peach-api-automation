@@ -1,0 +1,3 @@
+mutation updateAllocateCostInfo($input: UpdateCostInformationInput){
+    updateAllocateCostInfo(input: $input)
+}

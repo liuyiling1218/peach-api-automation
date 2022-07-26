@@ -1,0 +1,32 @@
+query pageBreakageRecord($input: PageBreakageRecordInput){
+    pageBreakageRecord(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            assistId
+            batchCode
+            breakageUnitConversion{
+                convertQuantity
+                convertUnitId
+                skuId
+                unitId
+                unitQuantity
+            }
+            id
+            orderCode
+            recordId
+            remark
+            skuId
+            skuName
+            stockOutTime
+            stockUnitConversion{
+                basicQuantity
+                basicType
+                skuId
+                subQuantity
+                subType
+            }
+        }
+        totalRecords
+    }
+}

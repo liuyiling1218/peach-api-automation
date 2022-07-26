@@ -1,0 +1,43 @@
+query pageSalesReportForm($input: SalesReportFormPageInput){
+    pageSalesReportForm(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            abnormalRemarkList
+            batchStockCode
+            cashierRemark
+            customerId
+            customerName
+            customerType
+            discountUnitPrice
+            id
+            labelRemarkList
+            orderCode
+            orderRemark
+            payMethod
+            payTime
+            productId
+            productName
+            remark
+            saleQuantity{
+                convertQuantity
+                convertUnitId
+                skuId
+                unitId
+                unitQuantity
+            }
+            totalMoney
+            unitPrice
+            unitQuantity{
+                basicQuantity
+                basicType
+                skuId
+                subQuantity
+                subType
+            }
+            varietyGroup
+            warehouseName
+        }
+        totalRecords
+    }
+}

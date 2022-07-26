@@ -1,0 +1,3 @@
+mutation createShoppingCar($input: ShoppingCarCreateInput){
+    createShoppingCar(input: $input)
+}

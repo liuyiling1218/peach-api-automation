@@ -1,0 +1,3 @@
+mutation editCreditEnableStatus($input: CreditEnableStatusInput){
+    editCreditEnableStatus(input: $input)
+}

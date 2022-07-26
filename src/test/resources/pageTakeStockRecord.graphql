@@ -1,0 +1,17 @@
+query pageTakeStockRecord($input: TakeStockRecordInput){
+    pageTakeStockRecord(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            checkDate
+            checkId
+            checkNum
+            createTime
+            remark
+            totalStatus
+            username
+            warehouseName
+        }
+        totalRecords
+    }
+}

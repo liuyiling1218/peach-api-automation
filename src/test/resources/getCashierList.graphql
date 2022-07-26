@@ -1,0 +1,8 @@
+query getCashierList{
+    getCashierList{
+        cashierList{
+            cashierId
+            cashierName
+        }
+    }
+}

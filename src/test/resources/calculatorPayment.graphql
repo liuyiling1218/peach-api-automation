@@ -1,0 +1,13 @@
+query calculatorPayment($input: CalculatorPaymentInput!){
+    calculatorPayment(input: $input){
+        debitFormsList{
+            debitFormId
+            debitMoney
+            lockTotalAmount
+            orderCode
+            orderId
+            paymentMoney
+            salesDate
+        }
+    }
+}

@@ -1,0 +1,22 @@
+query getPowerTree{
+    getPowerTree{
+        nodes{
+            children{
+                children{
+                    disabled
+                    key
+                    parentId
+                    title
+                }
+                disabled
+                key
+                parentId
+                title
+            }
+            disabled
+            key
+            parentId
+            title
+        }
+    }
+}

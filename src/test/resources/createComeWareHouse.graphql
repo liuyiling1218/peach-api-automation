@@ -1,0 +1,6 @@
+mutation createComeWareHouse($input: ComeWareHouseInput){
+    createComeWareHouse(input: $input){
+        stockOutCode
+        stockOutId
+    }
+}

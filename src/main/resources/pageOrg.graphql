@@ -1,0 +1,12 @@
+query pageOrg($input: PageOrgInput){
+    pageOrg(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            disable
+            key
+            name
+        }
+        totalRecords
+    }
+}

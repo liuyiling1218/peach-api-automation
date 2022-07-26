@@ -1,0 +1,3 @@
+mutation submitPayment($input: ChangePaymentStatusInput!){
+    submitPayment(input: $input)
+}

@@ -1,0 +1,27 @@
+query pageStockRecord($input: PageStockRecordInput){
+    pageStockRecord(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            allocateOutDeliveryTime
+            allocateOutOrganization
+            cancelRemark
+            commodityInfo
+            commoditySort
+            dataFrom
+            entryType
+            flowId
+            operator
+            orderCode
+            orderId
+            provider
+            remark
+            size
+            sponsorName
+            stockRecordId
+            time
+            warehouseName
+        }
+        totalRecords
+    }
+}

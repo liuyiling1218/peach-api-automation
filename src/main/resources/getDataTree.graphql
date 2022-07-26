@@ -1,0 +1,22 @@
+query getDataTree($type: DataType){
+    getDataTree(type: $type){
+        nodes{
+            children{
+                children{
+                    disabled
+                    key
+                    parentId
+                    title
+                }
+                disabled
+                key
+                parentId
+                title
+            }
+            disabled
+            key
+            parentId
+            title
+        }
+    }
+}

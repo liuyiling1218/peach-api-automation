@@ -1,0 +1,3 @@
+mutation createCustomerQualification($input: CustomerQualificationInput!){
+    createCustomerQualification(input: $input)
+}

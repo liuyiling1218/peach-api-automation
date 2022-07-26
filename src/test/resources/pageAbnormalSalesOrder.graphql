@@ -1,0 +1,22 @@
+query pageAbnormalSalesOrder($input: PageAbnormalSalesOrderInput){
+    pageAbnormalSalesOrder(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            abnormalCategory
+            abnormalCommodity{
+                quantityUnitType
+                skuId
+                skuName
+                skuQuantity
+                skuUnitPrice
+            }
+            abnormalStatus
+            orderCode
+            orderId
+            orderTime
+            orderUserName
+        }
+        totalRecords
+    }
+}

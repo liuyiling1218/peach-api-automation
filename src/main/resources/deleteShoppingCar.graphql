@@ -1,0 +1,3 @@
+mutation deleteShoppingCar($input: ShoppingCarDeletedInput!){
+    deleteShoppingCar(input: $input)
+}

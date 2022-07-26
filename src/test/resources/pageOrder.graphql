@@ -1,0 +1,37 @@
+query pageOrder($input: PageOrderInput){
+    pageOrder(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            cancelTime
+            canceler
+            cashierName
+            commodityDetail{
+                quantityUnitType
+                skuId
+                skuName
+                skuQuantity
+                skuUnitPrice
+            }
+            commoditySkuNames
+            customerAlias
+            customerMobile
+            customerName
+            customerType
+            customerTypeDesc
+            orderCompleteTime
+            orderId
+            orderOperation
+            orderPaymentTime
+            orderTime
+            paidAmount
+            paymentCode
+            purchaseAlias
+            purchaseName
+            status
+            statusDesc
+            totalAmount
+        }
+        totalRecords
+    }
+}

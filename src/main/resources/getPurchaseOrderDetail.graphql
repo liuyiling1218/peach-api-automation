@@ -1,0 +1,46 @@
+query getPurchaseOrderDetail($input: PurchaseOrderDetailInput){
+    getPurchaseOrderDetail(input: $input){
+        auditStatus
+        commodityList{
+            commoditySkuId
+            commoditySkuName
+            convertQuantity
+            convertUnitId
+            quantity
+            subtotal
+            unitConversion{
+                basicType
+                basicTypeRatio
+                skuId
+                subType
+                subTypeRatio
+            }
+            unitId
+            unitPrice
+        }
+        commodityTotal
+        commodityTotalAmount
+        freightTotalAmount
+        fruitTotalAmount
+        miscellaneousFreight{
+            costName
+            costPrice
+            costSupplier
+            costSupplierId
+            costTypeId
+            payMode
+            remark
+        }
+        orderCode
+        orderCompleteTime
+        orderCreateTime
+        orderId
+        phoneNum
+        purchaseName
+        rejectReason
+        remark
+        reviewUserName
+        status
+        supplierName
+    }
+}

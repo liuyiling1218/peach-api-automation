@@ -1,5 +1,5 @@
-query CalculatorPaymentQuery{
-    calculatorPayment(input: {creditCode: 1}){
+query calculatorPayment($input: CalculatorPaymentInput!){
+    calculatorPayment(input: $input){
         debitFormsList{
             debitFormId
             debitMoney

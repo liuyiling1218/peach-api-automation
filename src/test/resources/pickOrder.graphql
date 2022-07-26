@@ -1,0 +1,3 @@
+mutation pickOrder($input: OrderIdInput!){
+    pickOrder(input: $input)
+}

@@ -1,0 +1,26 @@
+query saleCountOfCommodity{
+    saleCountOfCommodity{
+        records{
+            categoryName
+            commodityCategoryId
+            commoditySkuDetail{
+                skuId
+                skuName
+                skuPrice{
+                    maxPrice
+                    minPrice
+                    unitType
+                }
+                skuQuantity{
+                    number
+                    unitType
+                }
+            }
+            salesAmount
+            salesNum{
+                number
+                unitType
+            }
+        }
+    }
+}

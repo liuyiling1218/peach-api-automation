@@ -1,0 +1,41 @@
+query listCustomer($input: CustomerListInput){
+    listCustomer(input: $input){
+        data{
+            alias
+            allLetter
+            attribute
+            availableAmount
+            belongOrganizationId
+            channelId
+            channelName
+            corporation
+            createTime
+            creditLine
+            creditPeriod
+            creditPeriodStatusEnum
+            customerContact{
+                alias
+                contactUserId
+                id
+                name
+                phone
+                userStatus
+            }
+            customerDetailId
+            customerUserId
+            enable
+            financialSystemCode
+            firstLetter
+            id
+            idNumber
+            name
+            overdueDay
+            phone
+            signAgreement
+            taxpayerIdentificationNumber
+            type
+            userStatus
+        }
+        firstLetter
+    }
+}

@@ -1,0 +1,12 @@
+query querySupplierBaseInfo($input: QuerySupplierBaseInfoInput){
+    querySupplierBaseInfo(input: $input){
+        createBy
+        createTime
+        deleted
+        houseNum
+        id
+        name
+        supplierAddress
+        tfn
+    }
+}

@@ -1,0 +1,3 @@
+mutation updateMember($input: UpdateMemberInput){
+    updateMember(input: $input)
+}

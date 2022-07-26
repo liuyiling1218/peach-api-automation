@@ -1,0 +1,6 @@
+mutation insertPurchaseOrder($input: PurchaseOrderInsertInput){
+    insertPurchaseOrder(input: $input){
+        orderCode
+        orderId
+    }
+}

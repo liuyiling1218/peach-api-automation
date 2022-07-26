@@ -1,0 +1,3 @@
+query exportCostReportForm($input: CostReportFormQueryInput){
+    exportCostReportForm(input: $input)
+}

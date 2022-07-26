@@ -1,0 +1,26 @@
+query pageOutBoundReportForm($input: OutBoundReportFormPageInput){
+    pageOutBoundReportForm(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            batchStockCode
+            commoditySkuName
+            id
+            operatorName
+            orderCode
+            outboundTime
+            outboundType
+            remark
+            status
+            stockUnitConversion{
+                basicQuantity
+                basicType
+                skuId
+                subQuantity
+                subType
+            }
+            warehouseName
+        }
+        totalRecords
+    }
+}

@@ -1,0 +1,13 @@
+query listControlCommoditySku($input: ListControlCommoditySkuInput!){
+    listControlCommoditySku(input: $input){
+        records{
+            basicTypeId
+            commodityControlId
+            commoditySkuId
+            commoditySkuName
+            minGuidePrice
+            priceUnitId
+            state
+        }
+    }
+}

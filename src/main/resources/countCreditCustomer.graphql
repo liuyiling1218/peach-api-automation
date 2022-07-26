@@ -1,0 +1,5 @@
+query countCreditCustomer($input: CountCreditCustomerInput){
+    countCreditCustomer(input: $input){
+        creditCustomerNum
+    }
+}

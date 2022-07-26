@@ -1,0 +1,3 @@
+query getCurrentUserTicketPower{
+    getCurrentUserTicketPower
+}

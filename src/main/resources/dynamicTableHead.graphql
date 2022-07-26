@@ -1,0 +1,3 @@
+query dynamicTableHead($input: TableHeadInput){
+    dynamicTableHead(input: $input)
+}

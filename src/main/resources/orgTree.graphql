@@ -1,0 +1,10 @@
+query orgTree($input: OrgTreeInput){
+    orgTree(input: $input){
+        appId
+        children
+        disable
+        key
+        name
+        parentId
+    }
+}

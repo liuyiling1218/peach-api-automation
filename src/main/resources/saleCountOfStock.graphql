@@ -1,0 +1,22 @@
+query saleCountOfStock{
+    saleCountOfStock{
+        records{
+            carNumber
+            stockDetail{
+                skuId
+                skuName
+                skuQuantity{
+                    number
+                    unitType
+                }
+            }
+            totalQuantity{
+                number
+                unitType
+            }
+            trailerNumber
+            wareHouseId
+            wareHouseName
+        }
+    }
+}

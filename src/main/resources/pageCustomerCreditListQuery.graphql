@@ -1,0 +1,25 @@
+query pageCustomerCreditListQuery($input: MerchantCustomerCreditQueryInput){
+    pageCustomerCreditListQuery(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            creditLine
+            creditPeriod
+            creditTotalAmount
+            customerAttribute
+            customerId
+            customerName
+            customerType
+            disableRemarks
+            earliestOverdueDate
+            enableRemarks
+            financialSystemCode
+            operatorName
+            operatorTime
+            overdueDay
+            overdueTotalAmount
+            useStatus
+        }
+        totalRecords
+    }
+}

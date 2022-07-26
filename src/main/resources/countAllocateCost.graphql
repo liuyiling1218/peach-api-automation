@@ -1,0 +1,6 @@
+query countAllocateCost($input: StockRecordType!){
+    countAllocateCost(input: $input){
+        submitNum
+        waitSubmitNum
+    }
+}

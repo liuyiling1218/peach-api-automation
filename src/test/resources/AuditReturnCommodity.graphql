@@ -1,0 +1,3 @@
+mutation AuditReturnCommodity($input: ReturnOrderIdInput){
+    AuditReturnCommodity(input: $input)
+}

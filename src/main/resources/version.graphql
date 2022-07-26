@@ -1,0 +1,13 @@
+query version{
+    version{
+        appleId
+        createAt
+        downloadUrl
+        platform
+        releaseAt
+        updateInfo
+        upgradeStrategy
+        version
+        versionCode
+    }
+}

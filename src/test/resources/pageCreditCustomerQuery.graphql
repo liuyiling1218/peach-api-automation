@@ -1,0 +1,21 @@
+query pageCreditCustomerQuery($input: CreditCustomerQueryInput){
+    pageCreditCustomerQuery(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            creditTotalAmount
+            customerAttribute
+            customerId
+            customerName
+            dimensionStatistics{
+                creditAmount
+                creditSalesProportion
+                creditTotalProportion
+                salesTotalAmount
+            }
+            overdueTotalAmount
+        }
+        tableHead
+        totalRecords
+    }
+}

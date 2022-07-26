@@ -1,0 +1,20 @@
+query pageReturnOrderAudit($input: pageReturnOrderInput){
+    pageReturnOrderAudit(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            completeTime
+            customerName
+            rejectTime
+            returnCommodity
+            returnOrderCode
+            returnOrderId
+            reviewerName
+            sponsorName
+            status
+            submitTime
+            totalAmount
+        }
+        totalRecords
+    }
+}

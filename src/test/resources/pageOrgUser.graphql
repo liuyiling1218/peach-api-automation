@@ -1,0 +1,21 @@
+query pageOrgUser($input: OrgUserPageInput){
+    pageOrgUser(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            orgInfos{
+                orgGroupId
+                orgGroupName
+                orgId
+                orgName
+                orgParentId
+                orgParentName
+            }
+            phone
+            userId
+            userName
+            userStatus
+        }
+        totalRecords
+    }
+}

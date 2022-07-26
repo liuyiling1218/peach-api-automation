@@ -1,0 +1,11 @@
+query listSkuGroup{
+    listSkuGroup{
+        category
+        categoryId
+        data{
+            disable
+            skuId
+            skuName
+        }
+    }
+}

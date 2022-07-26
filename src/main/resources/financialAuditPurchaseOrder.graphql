@@ -1,0 +1,3 @@
+mutation financialAuditPurchaseOrder($input: PurchaseCostUpdateInput){
+    financialAuditPurchaseOrder(input: $input)
+}

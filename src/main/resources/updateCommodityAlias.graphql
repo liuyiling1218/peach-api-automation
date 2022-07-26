@@ -1,0 +1,3 @@
+mutation updateCommodityAlias($input: CommodityAliasUpdateInput){
+    updateCommodityAlias(input: $input)
+}

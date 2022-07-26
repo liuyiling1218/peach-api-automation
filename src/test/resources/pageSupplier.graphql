@@ -1,0 +1,24 @@
+query pageSupplier($input: PageSupplierInput){
+    pageSupplier(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            attribute
+            createTime
+            financialSystemCode
+            houseNum
+            phoneNum
+            remark
+            supplierAddress
+            supplierDetailId
+            supplierId
+            supplierName
+            supplierOrgId
+            supplierShortName
+            supplierTypeId
+            tfn
+            typeName
+        }
+        totalRecords
+    }
+}

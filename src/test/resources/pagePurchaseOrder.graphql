@@ -1,0 +1,33 @@
+query pagePurchaseOrder($input: PurchaseOrderPageInput){
+    pagePurchaseOrder(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            auditStatus
+            commodityList{
+                commoditySkuId
+                commoditySkuName
+                convertQuantity
+                convertUnitId
+                quantity
+                subtotal
+                unitConversion{
+                    basicType
+                    basicTypeRatio
+                    skuId
+                    subType
+                    subTypeRatio
+                }
+                unitId
+                unitPrice
+            }
+            orderCode
+            orderCreateTime
+            orderId
+            purchaseName
+            status
+            supplierName
+        }
+        totalRecords
+    }
+}

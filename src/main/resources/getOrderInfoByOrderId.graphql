@@ -1,0 +1,11 @@
+query getOrderInfoByOrderId($input: OrderIdInput){
+    getOrderInfoByOrderId(input: $input){
+        customerId
+        customerName
+        orderCode
+        orderId
+        orderTime
+        paidAmount
+        paymentType
+    }
+}

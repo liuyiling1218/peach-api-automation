@@ -1,0 +1,10 @@
+query listAllWareHouse($input: WarehouseConditionInput){
+    listAllWareHouse(input: $input){
+        records{
+            carNo
+            trailerCarNo
+            wareHouseId
+            wareHouseName
+        }
+    }
+}

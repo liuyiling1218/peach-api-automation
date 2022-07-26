@@ -1,0 +1,8 @@
+query customerDebtCount($input: CustomerDebtCountInput){
+    customerDebtCount(input: $input){
+        customerNumber
+        debitTotalAmount
+        debtOrderCount
+        debtOrderTotalAmount
+    }
+}

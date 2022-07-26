@@ -1,0 +1,8 @@
+query listMerchantOption{
+    listMerchantOption{
+        option{
+            label
+            value
+        }
+    }
+}

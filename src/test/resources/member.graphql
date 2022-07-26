@@ -1,0 +1,9 @@
+query member($input: MemberIdInput){
+    member(input: $input){
+        id
+        name
+        phone
+        roleIds
+        roleNames
+    }
+}

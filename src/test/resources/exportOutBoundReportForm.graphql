@@ -1,0 +1,3 @@
+query exportOutBoundReportForm($input: OutBoundReportFormQueryInput){
+    exportOutBoundReportForm(input: $input)
+}

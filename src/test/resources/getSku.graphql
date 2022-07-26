@@ -1,0 +1,13 @@
+query getSku($input: SkuOptionQueryInput){
+    getSku(input: $input){
+        skuId
+        skuName
+        unitConversion{
+            basicType
+            basicTypeRatio
+            skuId
+            subType
+            subTypeRatio
+        }
+    }
+}

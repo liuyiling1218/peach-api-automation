@@ -1,0 +1,3 @@
+mutation submitPurchaseCost($input: PurchaseCostSubmitInput){
+    submitPurchaseCost(input: $input)
+}

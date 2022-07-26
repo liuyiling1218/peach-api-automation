@@ -1,0 +1,29 @@
+query pageCostReportForm($input: CostReportFormPageInput){
+    pageCostReportForm(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            batchStockCode
+            hasPurchaseCost
+            id
+            orderCode
+            placeOfPurchase
+            priceUnitId
+            productId
+            productName
+            purchaseCostId
+            purchaseDate
+            purchaseName
+            quantity
+            remark
+            supplierArea
+            supplierName
+            totalAmount
+            totalMoney
+            totalNumber
+            unitId
+            unitPrice
+        }
+        totalRecords
+    }
+}

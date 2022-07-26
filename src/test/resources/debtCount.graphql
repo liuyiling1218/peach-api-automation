@@ -1,0 +1,25 @@
+query debtCount($input: DebtCountInput){
+    debtCount(input: $input){
+        currentDebitTotalAmount
+        debitTotalAmount
+        debtCustomerCount
+        debtCustomerCountList{
+            customerDebitTotalAmount
+            customerInfo{
+                creditCode
+                creditLine
+                creditPeriod
+                customerAlias
+                customerAttribute
+                customerId
+                customerName
+                customerType
+                lockTotalCusAmount
+                phone
+                signAgreement
+            }
+            overdueAmount
+            overdueStatus
+        }
+    }
+}

@@ -1,0 +1,33 @@
+query pagePurchaseCost($input: PurchaseCostPageInput){
+    pagePurchaseCost(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            billId
+            commodityList{
+                commoditySkuId
+                commoditySkuName
+                convertQuantity
+                convertUnitId
+                quantity
+                subtotal
+                unitConversion{
+                    basicType
+                    basicTypeRatio
+                    skuId
+                    subType
+                    subTypeRatio
+                }
+                unitId
+                unitPrice
+            }
+            inWarehouseTime
+            purchaseName
+            purchaseOrderCode
+            purchaseOrderTime
+            reviewUserName
+            status
+        }
+        totalRecords
+    }
+}

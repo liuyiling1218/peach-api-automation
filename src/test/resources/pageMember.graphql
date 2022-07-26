@@ -1,0 +1,14 @@
+query pageMember($input: MemberPageInput){
+    pageMember(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            id
+            name
+            phone
+            roleIds
+            roleNames
+        }
+        totalRecords
+    }
+}

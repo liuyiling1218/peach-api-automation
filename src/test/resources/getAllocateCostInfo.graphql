@@ -1,0 +1,28 @@
+query getAllocateCostInfo($input: ID!){
+    getAllocateCostInfo(input: $input){
+        allocateCostBaseInfo{
+            costCode
+            operator
+            orgInName
+            orgOutName
+            outboundTime
+            remark
+            status
+            stockInTime
+            transferCode
+        }
+        costInformationDetail{
+            amount
+            board
+            costType
+            costTypeName
+            note
+            payMode
+            phone
+            supplierId
+            supplierName
+        }
+        costTotalAmount
+        flowId
+    }
+}

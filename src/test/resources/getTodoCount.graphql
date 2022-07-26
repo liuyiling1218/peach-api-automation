@@ -1,0 +1,6 @@
+query getTodoCount{
+    getTodoCount{
+        todoCount
+        type
+    }
+}

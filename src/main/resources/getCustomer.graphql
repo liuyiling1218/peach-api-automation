@@ -1,0 +1,38 @@
+query getCustomer($input: QueryCustomerInput){
+    getCustomer(input: $input){
+        alias
+        allLetter
+        attribute
+        availableAmount
+        belongOrganizationId
+        channelId
+        channelName
+        corporation
+        createTime
+        creditLine
+        creditPeriod
+        creditPeriodStatusEnum
+        customerContact{
+            alias
+            contactUserId
+            id
+            name
+            phone
+            userStatus
+        }
+        customerDetailId
+        customerUserId
+        enable
+        financialSystemCode
+        firstLetter
+        id
+        idNumber
+        name
+        overdueDay
+        phone
+        signAgreement
+        taxpayerIdentificationNumber
+        type
+        userStatus
+    }
+}

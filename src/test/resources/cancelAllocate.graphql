@@ -1,0 +1,3 @@
+mutation cancelAllocate($input: AllocateCancelInput){
+    cancelAllocate(input: $input)
+}

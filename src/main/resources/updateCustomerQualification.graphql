@@ -1,0 +1,3 @@
+mutation updateCustomerQualification($input: CustomerQualificationInput!){
+    updateCustomerQualification(input: $input)
+}

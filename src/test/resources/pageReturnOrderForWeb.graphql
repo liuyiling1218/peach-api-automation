@@ -1,0 +1,29 @@
+query pageReturnOrderForWeb($input: PageInput){
+    pageReturnOrderForWeb(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            afterSaleType
+            completeTime
+            customerId
+            customerName
+            debitMoney
+            debitOrderId
+            financialSystemCode
+            orderPayments{
+                paidAmount
+                paymentType
+            }
+            paymentMoney
+            remark
+            returnOrderCode
+            returnOrderId
+            returnTotalAmount
+            reviewerName
+            saleOrderCode
+            saleTotalAmount
+            sponsorName
+        }
+        totalRecords
+    }
+}

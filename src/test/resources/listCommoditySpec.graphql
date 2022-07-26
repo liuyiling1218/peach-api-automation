@@ -1,0 +1,15 @@
+query listCommoditySpec($input: CommoditySpecInput){
+    listCommoditySpec(input: $input){
+        commoditySpec{
+            commoditySpecOptions{
+                optionId
+                optionName
+            }
+            specId
+            specName
+        }
+        skuOption{
+            optionId
+        }
+    }
+}

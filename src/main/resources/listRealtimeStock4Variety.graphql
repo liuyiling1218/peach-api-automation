@@ -1,0 +1,26 @@
+query listRealtimeStock4Variety($input: RealtimeStockInput){
+    listRealtimeStock4Variety(input: $input){
+        data{
+            data{
+                carNo
+                trailerCarNo
+                warehouseId
+                warehouseName
+            }
+            totalAmount{
+                number
+                unitType
+            }
+            varietyInfo{
+                categoryId
+                categoryName
+                varietyId
+                varietyName
+            }
+        }
+        realtimeStockCount{
+            number
+            unitType
+        }
+    }
+}

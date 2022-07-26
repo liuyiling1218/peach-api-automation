@@ -1,0 +1,3 @@
+mutation checkUserExist($input: CheckUserInput){
+    checkUserExist(input: $input)
+}

@@ -1,0 +1,11 @@
+query getCurrentUser{
+    getCurrentUser{
+        avatar
+        needUpdatePassword
+        organizationName
+        phone
+        roleNames
+        userId
+        userName
+    }
+}

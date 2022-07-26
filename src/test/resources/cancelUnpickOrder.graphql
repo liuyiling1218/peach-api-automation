@@ -1,0 +1,3 @@
+mutation cancelUnpickOrder($input: OrderIdInput!){
+    cancelUnpickOrder(input: $input)
+}

@@ -1,0 +1,18 @@
+query listOrgUser($input: OrgUserListInput){
+    listOrgUser(input: $input){
+        orgUserPayload{
+            orgInfos{
+                orgGroupId
+                orgGroupName
+                orgId
+                orgName
+                orgParentId
+                orgParentName
+            }
+            phone
+            userId
+            userName
+            userStatus
+        }
+    }
+}

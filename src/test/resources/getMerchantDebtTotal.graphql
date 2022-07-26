@@ -1,0 +1,6 @@
+query getMerchantDebtTotal{
+    getMerchantDebtTotal{
+        debtTotal
+        orgName
+    }
+}

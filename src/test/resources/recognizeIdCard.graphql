@@ -1,0 +1,13 @@
+query recognizeIdCard($input: RecognizeIdCardInput){
+    recognizeIdCard(input: $input){
+        address
+        birth
+        ethnicity
+        issue
+        name
+        number
+        sex
+        validFrom
+        validTo
+    }
+}

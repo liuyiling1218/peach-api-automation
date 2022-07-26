@@ -1,0 +1,12 @@
+query listSmallTicket{
+    listSmallTicket{
+        records{
+            businessType
+            ticketList{
+                status
+                ticketId
+                ticketType
+            }
+        }
+    }
+}

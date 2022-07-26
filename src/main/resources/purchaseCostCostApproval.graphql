@@ -1,0 +1,3 @@
+mutation purchaseCostCostApproval($input: ID!){
+    purchaseCostCostApproval(input: $input)
+}

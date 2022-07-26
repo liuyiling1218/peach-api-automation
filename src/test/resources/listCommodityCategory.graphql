@@ -1,0 +1,8 @@
+query listCommodityCategory{
+    listCommodityCategory{
+        records{
+            categoryId
+            categoryName
+        }
+    }
+}

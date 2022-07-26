@@ -1,0 +1,3 @@
+query exportOrderReportForm($input: OrderReportFormQueryInput){
+    exportOrderReportForm(input: $input)
+}

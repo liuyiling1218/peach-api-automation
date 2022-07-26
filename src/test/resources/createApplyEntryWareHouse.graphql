@@ -1,0 +1,3 @@
+mutation createApplyEntryWareHouse($input: ConfirmEntryInput){
+    createApplyEntryWareHouse(input: $input)
+}

@@ -1,0 +1,3 @@
+mutation updateCustomerContact($input: CustomerContactInput){
+    updateCustomerContact(input: $input)
+}

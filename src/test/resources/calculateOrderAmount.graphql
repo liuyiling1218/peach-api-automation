@@ -1,0 +1,9 @@
+query calculateOrderAmount($input: CalculateOrderInput){
+    calculateOrderAmount(input: $input){
+        calculateOrderDetailList{
+            batchId
+            batchTotalAmount
+        }
+        totalAmount
+    }
+}

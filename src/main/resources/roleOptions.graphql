@@ -1,0 +1,6 @@
+query roleOptions{
+    roleOptions{
+        label
+        value
+    }
+}

@@ -1,0 +1,6 @@
+query listWarehouseType{
+    listWarehouseType{
+        label
+        value
+    }
+}

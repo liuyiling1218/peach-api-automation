@@ -1,0 +1,16 @@
+query getOrderCommodity($input: Int!){
+    getOrderCommodity(input: $input){
+        commodityDetail{
+            commodityAlias
+            commoditySkuId
+            returnCommodityDetails{
+                orderDetailId
+                salesQuantity
+                totalAmount
+                unitId
+                unitPrice
+                warehouseTime
+            }
+        }
+    }
+}

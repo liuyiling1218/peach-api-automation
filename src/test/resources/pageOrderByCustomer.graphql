@@ -1,0 +1,19 @@
+query pageOrderByCustomer($input: PageOrderByCustomerInput!){
+    pageOrderByCustomer(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            commodityDetail{
+                commodityAlias
+                quantity
+                unitId
+            }
+            customerName
+            orderId
+            orderTime
+            paidAmount
+            paymentType
+        }
+        totalRecords
+    }
+}

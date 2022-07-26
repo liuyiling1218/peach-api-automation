@@ -1,0 +1,10 @@
+query listControlCommodityCategory{
+    listControlCommodityCategory{
+        records{
+            categoryId
+            categoryName
+            commodityControlId
+            toDoCount
+        }
+    }
+}

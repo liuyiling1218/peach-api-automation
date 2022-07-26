@@ -1,0 +1,3 @@
+mutation insertSupplier($input: SupplierInsertInput){
+    insertSupplier(input: $input)
+}

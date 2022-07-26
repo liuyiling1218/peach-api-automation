@@ -1,0 +1,6 @@
+query queryNameAndIdNumberByPhone($input: String){
+    queryNameAndIdNumberByPhone(input: $input){
+        idNumber
+        name
+    }
+}

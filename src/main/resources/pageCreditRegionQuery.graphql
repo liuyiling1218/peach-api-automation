@@ -1,0 +1,18 @@
+query pageCreditRegionQuery($input: RegionCreditQueryInput){
+    pageCreditRegionQuery(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            creditTotalAmount
+            creditTotalProportion
+            paybackTotalAmount
+            paybackTotalProportion
+            salesCreditTotalAmount
+            salesCreditTotalProportion
+            salesTotalAmount
+            statisticalDate
+            uniqueId
+        }
+        totalRecords
+    }
+}

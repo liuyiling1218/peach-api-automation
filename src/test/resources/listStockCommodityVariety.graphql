@@ -1,0 +1,8 @@
+query listStockCommodityVariety{
+    listStockCommodityVariety{
+        categoryId
+        categoryName
+        varietyId
+        varietyName
+    }
+}

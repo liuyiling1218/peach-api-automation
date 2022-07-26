@@ -1,0 +1,3 @@
+query exportAllocateReportForm($input: PageAllocateOrderInput){
+    exportAllocateReportForm(input: $input)
+}

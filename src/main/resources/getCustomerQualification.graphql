@@ -1,0 +1,22 @@
+query getCustomerQualification($customerDetailId: Int!){
+    getCustomerQualification(customerDetailId: $customerDetailId){
+        assetDescription
+        businessCondition
+        businessDuration
+        businessScale
+        businessTypes
+        customerDetailId
+        files{
+            fileId
+            fileUploadTime
+            fileUrl
+            filename
+        }
+        id
+        longTermCooperation
+        purchaseCondition
+        salesChannels
+        signAgreement
+        typeRemark
+    }
+}

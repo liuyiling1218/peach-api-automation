@@ -1,0 +1,3 @@
+mutation paymentOrder($input: OrderPaymentInput){
+    paymentOrder(input: $input)
+}

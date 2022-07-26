@@ -1,0 +1,10 @@
+query listWarehouse($input: WarehouseListInput){
+    listWarehouse(input: $input){
+        address
+        id
+        name
+        organizationName
+        status
+        type
+    }
+}

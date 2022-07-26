@@ -1,0 +1,12 @@
+query listCommodityLabel($input: CommodityLabelInput){
+    listCommodityLabel(input: $input){
+        categoryId
+        categoryName
+        id
+        name
+        remark
+        status
+        type
+        typeDesc
+    }
+}

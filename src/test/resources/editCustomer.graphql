@@ -1,0 +1,3 @@
+mutation editCustomer($input: CustomerEditInput){
+    editCustomer(input: $input)
+}

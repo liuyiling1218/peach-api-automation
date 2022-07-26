@@ -1,0 +1,11 @@
+query paymentCount($input: OrderPaymentCountInput){
+    paymentCount(input: $input){
+        paymentMethodCountList{
+            paymentAmount
+            paymentQuantity
+            paymentType
+        }
+        totalAmount
+        totalQuantity
+    }
+}

@@ -1,0 +1,3 @@
+query hasNotFinishedOrder($id: Int!){
+    hasNotFinishedOrder(id: $id)
+}

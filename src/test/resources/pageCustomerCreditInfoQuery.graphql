@@ -1,0 +1,32 @@
+query pageCustomerCreditInfoQuery($input: CustomerCreditInfoInput){
+    pageCustomerCreditInfoQuery(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            creditAmount
+            creditDateCount
+            debitFormCode
+            debtCommodityInfoList{
+                commoditySkuId
+                commoditySkuName
+                quantity
+                quantityUnitType
+            }
+            debtMoneyBackInfoList{
+                moneyBackInfo{
+                    paybackAmount
+                    paymentType
+                }
+                paybackTime
+            }
+            debtOrderStatusEnum
+            moneyBackAmount
+            payInfo
+            refundAmount
+            saleOrderCode
+            salesDate
+            uniqueId
+        }
+        totalRecords
+    }
+}

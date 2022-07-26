@@ -1,0 +1,3 @@
+query hasWaitPaymentOrder($input: ID!){
+    hasWaitPaymentOrder(input: $input)
+}

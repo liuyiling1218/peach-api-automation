@@ -1,0 +1,6 @@
+query countPurchaseCostByStatus{
+    countPurchaseCostByStatus{
+        submitNum
+        toSubmitNum
+    }
+}

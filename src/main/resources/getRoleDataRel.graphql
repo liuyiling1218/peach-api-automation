@@ -1,0 +1,5 @@
+query getRoleDataRel($input: GetRoleDataRelInput){
+    getRoleDataRel(input: $input){
+        keys
+    }
+}

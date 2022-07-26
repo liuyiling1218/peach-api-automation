@@ -1,0 +1,7 @@
+query countPurchaseOrderByStatus{
+    countPurchaseOrderByStatus{
+        completedNum
+        toSubmittedNum
+        toWarehousedNum
+    }
+}

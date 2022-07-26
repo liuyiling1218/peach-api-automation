@@ -1,0 +1,35 @@
+query listSearchStockSku($input: SearchStockSkuInput){
+    listSearchStockSku(input: $input){
+        carNo
+        data{
+            commoditySkuId
+            commoditySkuName
+            data{
+                batchId
+                carNo
+                convertQuantity
+                convertUnit
+                costPrice
+                inStockTime
+                stock
+                temporaryStatus
+                trailerCarNo
+                unit
+                warehouseId
+                warehouseName
+                warehouseType
+            }
+            unitConversion{
+                basicType
+                basicTypeRatio
+                skuId
+                subType
+                subTypeRatio
+            }
+        }
+        temporaryStatus
+        trailerCarNo
+        warehouseId
+        warehouseName
+    }
+}

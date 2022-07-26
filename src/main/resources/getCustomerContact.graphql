@@ -1,0 +1,22 @@
+query getCustomerContact($contactId: Int!){
+    getCustomerContact(contactId: $contactId){
+        alias
+        contactUserId
+        customerDetailId
+        fileRecord{
+            fileType
+            files{
+                fileId
+                fileUploadTime
+                fileUrl
+                filename
+            }
+        }
+        id
+        idNumber
+        name
+        phone
+        remark
+        userStatus
+    }
+}

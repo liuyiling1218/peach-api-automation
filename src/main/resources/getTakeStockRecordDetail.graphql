@@ -1,0 +1,36 @@
+query getTakeStockRecordDetail($input: TakeStockRecordDetailInput){
+    getTakeStockRecordDetail(input: $input){
+        abnormalQuantity
+        checkCount
+        checkDate
+        createTime
+        records{
+            batchCode
+            checkStatus
+            checkUnitConversion{
+                basicQuantity
+                basicType
+                skuId
+                subQuantity
+                subType
+            }
+            commoditySkuName
+            entryTime
+            orderType
+            originalBatchCode
+            remark
+            skuId
+            stockOrderCode
+            sysUnitConversion{
+                basicQuantity
+                basicType
+                skuId
+                subQuantity
+                subType
+            }
+        }
+        remark
+        username
+        warehouseName
+    }
+}

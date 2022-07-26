@@ -1,0 +1,12 @@
+mutation createTakeStock($input: TakeStockDetailInput){
+    createTakeStock(input: $input){
+        loseRecord{
+            recordCode
+            recordId
+        }
+        winRecord{
+            recordCode
+            recordId
+        }
+    }
+}

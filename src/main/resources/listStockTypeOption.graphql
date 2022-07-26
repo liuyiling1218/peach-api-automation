@@ -1,0 +1,8 @@
+query listStockTypeOption($input: StockTypeOptionInput){
+    listStockTypeOption(input: $input){
+        option{
+            label
+            value
+        }
+    }
+}

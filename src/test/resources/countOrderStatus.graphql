@@ -1,0 +1,6 @@
+query countOrderStatus{
+    countOrderStatus{
+        unpaidOrderNum
+        unpickOrderNum
+    }
+}

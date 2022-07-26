@@ -1,0 +1,3 @@
+mutation updateShoppingCar($input: ShoppingCarUpdateInput!){
+    updateShoppingCar(input: $input)
+}

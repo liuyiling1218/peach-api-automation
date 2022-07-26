@@ -1,0 +1,6 @@
+query saleCount{
+    saleCount{
+        orderNumberOfDay
+        salesAmountOfDay
+    }
+}

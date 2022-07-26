@@ -1,0 +1,3 @@
+mutation enableOrDisableCustomer($input: EnableOrDisableCustomerInput!){
+    enableOrDisableCustomer(input: $input)
+}

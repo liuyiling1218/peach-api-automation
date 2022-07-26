@@ -1,0 +1,13 @@
+query getMerchant($input: MerchantInput){
+    getMerchant(input: $input){
+        id
+        name
+        orgGroupId
+        orgGroupName
+        orgId
+        orgName
+        phone
+        userId
+        userName
+    }
+}

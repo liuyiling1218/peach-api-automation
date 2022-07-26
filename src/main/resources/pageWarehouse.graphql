@@ -1,0 +1,15 @@
+query pageWarehouse($input: WarehousePageInput){
+    pageWarehouse(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            address
+            id
+            name
+            organizationName
+            status
+            type
+        }
+        totalRecords
+    }
+}

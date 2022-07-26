@@ -1,0 +1,3 @@
+mutation removeMember($input: MemberIdInput){
+    removeMember(input: $input)
+}

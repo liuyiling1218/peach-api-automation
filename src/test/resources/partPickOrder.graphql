@@ -1,0 +1,3 @@
+mutation partPickOrder($input: OrderPartPickInput){
+    partPickOrder(input: $input)
+}

@@ -1,0 +1,23 @@
+query pageSalesList($input: BasePage){
+    pageSalesList(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            categoryName
+            commodityCategoryId
+            commodityVarietyId
+            commodityVarietyName
+            salesAmount
+            salesNum{
+                number
+                unitType
+            }
+            skuPrice{
+                maxPrice
+                minPrice
+                unitType
+            }
+        }
+        totalRecords
+    }
+}

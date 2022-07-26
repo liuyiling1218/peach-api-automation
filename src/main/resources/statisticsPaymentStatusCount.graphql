@@ -1,0 +1,6 @@
+query statisticsPaymentStatusCount($input: PaymentStatusCountInput!){
+    statisticsPaymentStatusCount(input: $input){
+        count
+        paymentStatus
+    }
+}

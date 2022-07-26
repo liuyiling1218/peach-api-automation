@@ -1,0 +1,43 @@
+query pageOrderReportForm($input: OrderReportFormPageInput){
+    pageOrderReportForm(input: $input){
+        pageCurrent
+        pageSize
+        records{
+            alipayMoney
+            billingTime
+            cashMoney
+            cashRemark
+            cashierName
+            customerName
+            customerType
+            discountMoney
+            externalArrearsMoney
+            id
+            internalArrearsMoney
+            oldPayMethod
+            orderCode
+            payMethod
+            payTime
+            productAndCount{
+                productName
+                quantity
+                unit
+            }
+            receivableMoney
+            relationReturnOrderInfo{
+                returnOrderCode
+                returnOrderId
+            }
+            remark
+            salesmanName
+            status
+            statusDesc
+            swipeMoney
+            totalMoney
+            totalQuantity
+            transferAccountsMoney
+            wechatMoney
+        }
+        totalRecords
+    }
+}

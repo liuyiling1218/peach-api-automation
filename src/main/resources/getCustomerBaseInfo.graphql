@@ -1,0 +1,11 @@
+query getCustomerBaseInfo($input: CustomerBaseInfoInput){
+    getCustomerBaseInfo(input: $input){
+        attribute
+        corporation
+        id
+        idNumber
+        name
+        taxpayerIdentificationNumber
+        type
+    }
+}

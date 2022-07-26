@@ -1,0 +1,10 @@
+query getWarehouse($input: WarehouseQueryInput!){
+    getWarehouse(input: $input){
+        address
+        id
+        name
+        organizationName
+        status
+        type
+    }
+}

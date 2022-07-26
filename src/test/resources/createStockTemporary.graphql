@@ -1,0 +1,3 @@
+mutation createStockTemporary($input: StockTemporaryInput){
+    createStockTemporary(input: $input)
+}
