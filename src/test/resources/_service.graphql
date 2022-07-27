@@ -1,5 +1,0 @@
-query _service{
-    _service{
-        sdl
-    }
-}

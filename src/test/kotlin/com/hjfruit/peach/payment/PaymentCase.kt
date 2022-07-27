@@ -17,8 +17,6 @@ class PaymentCase:GraphqlBaseTest() {
             val calculatorPayment = CalculatorPayment(CalculatorPayment.Variables(CalculatorPaymentInput()))
             print(client.execute(calculatorPayment))
 
-
-
         }
     }
 
