@@ -1,3 +1,0 @@
-query exportSalesReportForm($input: SalesReportFormQueryInput){
-    exportSalesReportForm(input: $input)
-}

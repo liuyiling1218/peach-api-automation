@@ -1,3 +1,0 @@
-mutation updatePurchaseOrder($input: PurchaseOrderUpdateInput){
-    updatePurchaseOrder(input: $input)
-}

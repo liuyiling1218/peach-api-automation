@@ -1,6 +1,0 @@
-mutation enableSmallTicket($input: TicketEnableInput){
-    enableSmallTicket(input: $input){
-        errorMessage
-        operateStatus
-    }
-}

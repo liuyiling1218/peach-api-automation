@@ -1,3 +1,0 @@
-mutation modifyPaymentMethod($input: ModifyPaymentInput){
-    modifyPaymentMethod(input: $input)
-}

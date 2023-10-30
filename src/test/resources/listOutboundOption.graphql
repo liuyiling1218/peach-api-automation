@@ -1,9 +1,0 @@
-query listOutboundOption{
-    listOutboundOption{
-        options{
-            disable
-            label
-            value
-        }
-    }
-}

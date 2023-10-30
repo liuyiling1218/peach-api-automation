@@ -1,5 +1,0 @@
-mutation createCustomerCredit($input: CustomerCreditCreateInput){
-    createCustomerCredit(input: $input){
-        creditCode
-    }
-}

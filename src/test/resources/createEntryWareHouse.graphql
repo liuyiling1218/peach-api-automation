@@ -1,3 +1,0 @@
-mutation createEntryWareHouse($input: EntryWareHouseInput){
-    createEntryWareHouse(input: $input)
-}

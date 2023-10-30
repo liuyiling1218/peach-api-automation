@@ -1,8 +1,0 @@
-query listCommoditySpu($input: CommoditySpuInput){
-    listCommoditySpu(input: $input){
-        records{
-            spuId
-            spuName
-        }
-    }
-}

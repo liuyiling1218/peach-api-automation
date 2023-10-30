@@ -1,8 +1,0 @@
-query checkStockBatch($input: CheckStockBatchInput){
-    checkStockBatch(input: $input){
-        stockBatchInfos{
-            batchId
-            stockQuantity
-        }
-    }
-}

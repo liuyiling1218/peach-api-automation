@@ -1,9 +1,0 @@
-query listCustomerTypeOption{
-    listCustomerTypeOption{
-        options{
-            disable
-            label
-            value
-        }
-    }
-}

@@ -1,9 +1,0 @@
-query listPayMethodOption{
-    listPayMethodOption{
-        options{
-            disable
-            label
-            value
-        }
-    }
-}

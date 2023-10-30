@@ -1,5 +1,0 @@
-query listRecommendTag($input: ListRecommendTagInput!){
-    listRecommendTag(input: $input){
-        tagNameList
-    }
-}

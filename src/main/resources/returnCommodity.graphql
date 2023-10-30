@@ -1,3 +1,0 @@
-mutation returnCommodity($input: ReturnOrderInput){
-    returnCommodity(input: $input)
-}

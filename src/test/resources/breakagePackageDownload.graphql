@@ -1,5 +1,0 @@
-mutation breakagePackageDownload($input: PackageDownloadInput){
-    breakagePackageDownload(input: $input){
-        downloadFileUrl
-    }
-}

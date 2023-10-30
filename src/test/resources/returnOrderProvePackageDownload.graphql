@@ -1,5 +1,0 @@
-mutation returnOrderProvePackageDownload($input: DownloadInput){
-    returnOrderProvePackageDownload(input: $input){
-        downloadFileUrl
-    }
-}

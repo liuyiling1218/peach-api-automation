@@ -1,3 +1,0 @@
-mutation editCustomerCredit($input: CustomerCreditEditInput){
-    editCustomerCredit(input: $input)
-}

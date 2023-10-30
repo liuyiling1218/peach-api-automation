@@ -1,6 +1,0 @@
-query listCommodityUnitType($input: CommodityUnitTypeInput){
-    listCommodityUnitType(input: $input){
-        unitId
-        unitName
-    }
-}

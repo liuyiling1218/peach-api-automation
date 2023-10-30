@@ -1,3 +1,0 @@
-mutation updateDataRel($input: UpdateDataRelInput){
-    updateDataRel(input: $input)
-}

@@ -1,3 +1,0 @@
-query exportWarehouseReportForm($input: WarehouseReportFormQueryInput){
-    exportWarehouseReportForm(input: $input)
-}

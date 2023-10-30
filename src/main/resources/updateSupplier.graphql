@@ -1,3 +1,0 @@
-mutation updateSupplier($input: SupplierInsertInput){
-    updateSupplier(input: $input)
-}

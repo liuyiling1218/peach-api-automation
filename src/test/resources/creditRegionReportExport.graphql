@@ -1,3 +1,0 @@
-query creditRegionReportExport($input: RegionCreditInput){
-    creditRegionReportExport(input: $input)
-}

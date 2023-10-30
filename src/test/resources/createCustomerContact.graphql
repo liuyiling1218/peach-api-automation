@@ -1,3 +1,0 @@
-mutation createCustomerContact($input: CustomerContactInput){
-    createCustomerContact(input: $input)
-}

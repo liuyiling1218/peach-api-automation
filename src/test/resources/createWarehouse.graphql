@@ -1,3 +1,0 @@
-mutation createWarehouse($input: WarehouseCreateInput!){
-    createWarehouse(input: $input)
-}

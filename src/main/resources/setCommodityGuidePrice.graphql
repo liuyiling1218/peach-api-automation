@@ -1,3 +1,0 @@
-mutation setCommodityGuidePrice($input: SetCommodityGuidePriceInput!){
-    setCommodityGuidePrice(input: $input)
-}

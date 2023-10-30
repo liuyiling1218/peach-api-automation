@@ -1,3 +1,0 @@
-mutation createRole($input: CreateRoleInput){
-    createRole(input: $input)
-}

@@ -1,3 +1,0 @@
-mutation submitAllocateToFinance($input: ID!){
-    submitAllocateToFinance(input: $input)
-}

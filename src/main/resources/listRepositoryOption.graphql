@@ -1,9 +1,0 @@
-query listRepositoryOption{
-    listRepositoryOption{
-        options{
-            disable
-            label
-            value
-        }
-    }
-}

@@ -1,6 +1,0 @@
-mutation checkSupplier($input: SupplierCheckInput){
-    checkSupplier(input: $input){
-        errorMsg
-        status
-    }
-}

@@ -1,3 +1,0 @@
-mutation createRejectApply($input: RejectApplyInput){
-    createRejectApply(input: $input)
-}

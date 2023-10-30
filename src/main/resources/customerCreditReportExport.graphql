@@ -1,3 +1,0 @@
-query customerCreditReportExport($input: MerchantCustomerCreditInput){
-    customerCreditReportExport(input: $input)
-}

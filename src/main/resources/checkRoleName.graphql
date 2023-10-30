@@ -1,6 +1,0 @@
-mutation checkRoleName($input: CheckRoleNameInput){
-    checkRoleName(input: $input){
-        msg
-        success
-    }
-}

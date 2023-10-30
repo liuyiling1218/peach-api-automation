@@ -1,3 +1,0 @@
-mutation changeWarehouseStat($input: ChangeWarehouseStatInput!){
-    changeWarehouseStat(input: $input)
-}

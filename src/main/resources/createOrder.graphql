@@ -1,9 +1,0 @@
-mutation createOrder($input: WholesaleOrderCreateInput){
-    createOrder(input: $input){
-        orderCancelHour
-        orderCode
-        orderId
-        payableAmount
-        paymentCode
-    }
-}

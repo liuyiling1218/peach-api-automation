@@ -1,3 +1,0 @@
-mutation rejectReturnCommodity($input: ReturnOrderIdInput){
-    rejectReturnCommodity(input: $input)
-}

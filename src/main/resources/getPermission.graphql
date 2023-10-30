@@ -1,3 +1,0 @@
-query getPermission($input: GetPermissionInput){
-    getPermission(input: $input)
-}

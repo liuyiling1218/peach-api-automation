@@ -1,3 +1,0 @@
-query creditCustomerReportExport($input: CreditCustomerInput){
-    creditCustomerReportExport(input: $input)
-}

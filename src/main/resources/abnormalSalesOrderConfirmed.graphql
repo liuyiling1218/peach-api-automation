@@ -1,3 +1,0 @@
-mutation abnormalSalesOrderConfirmed($input: AbnormalSalesOrderConfirmedInput){
-    abnormalSalesOrderConfirmed(input: $input)
-}

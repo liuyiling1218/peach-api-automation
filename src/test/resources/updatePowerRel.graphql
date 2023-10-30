@@ -1,3 +1,0 @@
-mutation updatePowerRel($input: UpdatePowerRelInput){
-    updatePowerRel(input: $input)
-}

@@ -1,5 +1,0 @@
-query getRolePowerRel($id: Int){
-    getRolePowerRel(id: $id){
-        ids
-    }
-}

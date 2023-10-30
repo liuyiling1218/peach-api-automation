@@ -1,9 +1,0 @@
-query countCommodityCategoryStock{
-    countCommodityCategoryStock{
-        commodityCategoryCounts{
-            commodityCategoryId
-            commodityCategoryName
-            shoppingCarCount
-        }
-    }
-}

@@ -1,3 +1,0 @@
-mutation updatePayment($input: UpdatePaymentInput!){
-    updatePayment(input: $input)
-}

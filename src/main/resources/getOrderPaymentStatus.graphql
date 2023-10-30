@@ -1,6 +1,0 @@
-query getOrderPaymentStatus($input: OrderInfoInput!){
-    getOrderPaymentStatus(input: $input){
-        msg
-        status
-    }
-}
