@@ -1,0 +1,5 @@
+[tool.ariadne-codegen]
+schema_path = "graphql/schema.graphql"
+queries_path = "graphql/orange_queries.graphql"
+#remote_schema_verify_ssl = false
+async_client = false

@@ -1,0 +1,9 @@
+mutation peachOrderCreate ($input: PeachOrderCreateInput) {
+    peachOrderCreate (input: $input) {
+        orderCancelHour
+        orderCode
+        orderId
+        payableAmount
+        paymentCode
+    }
+}
