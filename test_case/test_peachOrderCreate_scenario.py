@@ -30,4 +30,5 @@ def test_peachOrderCreate(client:Client):
         return res.peach_order_create.order_id
 
 
-
+if __name__ == '__main__':
+    test_peachOrderCreate()
