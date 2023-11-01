@@ -4,7 +4,7 @@
 @date:2023/11/1 14:45
 
 """
-from test_case.Action.peachOrderCreate_Action import test_peachOrderCreate, test_peachOrderPayment
+from Action.peachOrderCreate_Action import test_peachOrderCreate, test_peachOrderPayment
 
 # 开单-收银
 def test_createOrder_payment_scenario():

@@ -3,7 +3,7 @@
 @description:
 @date:2023/10/24 15:15
 """
-from test_case.Common import common
+from Common.Common import common
 from graphql_client.client import Client
 from graphql_client.input_types import *
 from graphql_client.enums import OrderSchema, PeachOrderType, PaymentType

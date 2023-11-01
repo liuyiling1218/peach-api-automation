@@ -6,7 +6,7 @@
 """
 import requests
 import pytest
-from test_case.Autheration import autheration
+from Common.Autheration import autheration
 @pytest.fixture(scope='session',autouse=True)
 def test_login_request():
     url = 'https://auth-test.hjfruit.cn'

@@ -5,7 +5,7 @@
 
 """
 from graphql_client.client import Client
-from test_case.Autheration import autheration
+from Common.Autheration import autheration
 def common(func):
     def graphql_request(parameter=''):
         client = Client(url='https://peach-test.hjfruit.cn/graphql', headers={"Authorization": autheration.token})
