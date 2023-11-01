@@ -7,7 +7,7 @@
 import requests
 import pytest
 from test_case.Autheration import autheration
-@pytest.fixture(scope='module',autouse=True)
+@pytest.fixture(scope='session',autouse=True)
 def test_login_request():
     url = 'https://auth-test.hjfruit.cn'
     headers = {'Host': 'auth-test.hjfruit.cn', 'content-type': 'application/json', 'Accept-Encoding': 'gzip',

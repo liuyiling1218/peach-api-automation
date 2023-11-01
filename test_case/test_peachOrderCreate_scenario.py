@@ -8,8 +8,8 @@ from test_case.Action.peachOrderCreate_Action import test_peachOrderCreate, test
 
 # 开单-收银
 def test_createOrder_payment_scenario():
-    id=test_peachOrderCreate()
-    test_peachOrderPayment(id)
+    order_id=test_peachOrderCreate()
+    test_peachOrderPayment(order_id)
 
 
 
