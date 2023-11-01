@@ -7,3 +7,7 @@ mutation peachOrderCreate ($input: PeachOrderCreateInput) {
         paymentCode
     }
 }
+mutation peachOrderPayment ($input: PeachOrderPaymentInput) {
+    peachOrderPayment (input: $input)
+
+}
