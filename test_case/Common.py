@@ -9,5 +9,6 @@ from test_case.Autheration import autheration
 def common(func):
     def graphql_request():
         client = Client(url='https://peach-test.hjfruit.cn/graphql', headers={"Authorization": autheration.token})
-        func(client)
+        res=func(client)
+        return res
     return graphql_request

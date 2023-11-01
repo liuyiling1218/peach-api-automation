@@ -4,10 +4,11 @@
 @date:2023/10/24 15:15
 """
 from test_case.Common import common
+from graphql_client.client import Client
 from graphql_client.input_types import PeachOrderCommodityCreateInput, PeachOrderCreateInput
 from graphql_client.enums import OrderSchema, PeachOrderType, PaymentType
 @common
-def test_peachOrderCreate(client):
+def test_peachOrderCreate(client:Client):
         peachOrderCommodityCreateInput = PeachOrderCommodityCreateInput.model_construct()
         peachOrderCommodityCreateInput.quantity = 0.01
         peachOrderCommodityCreateInput.stock_id = '1007564658771894272'
@@ -26,5 +27,7 @@ def test_peachOrderCreate(client):
         input.total_amount = 1
         input.remark='测试测试一下'
         res=client.peach_order_create(input)
-        print(res.peach_order_create.order_id)
         return res.peach_order_create.order_id
+
+
+
