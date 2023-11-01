@@ -7,8 +7,8 @@
 from graphql_client.client import Client
 from test_case.Autheration import autheration
 def common(func):
-    def graphql_request():
+    def graphql_request(parameter=''):
         client = Client(url='https://peach-test.hjfruit.cn/graphql', headers={"Authorization": autheration.token})
-        res=func(client)
+        res=func(client,parameter)
         return res
     return graphql_request
